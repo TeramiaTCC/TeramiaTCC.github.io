@@ -12,6 +12,11 @@ html, body {
 h1 {
     text-align: center;
     text-decoration: underline;
+    color: #F16520;
+}
+
+h2 {
+    color: #502C24;
 }
 
 p{

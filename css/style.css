@@ -69,13 +69,15 @@ body{
     transition: all 0.5s;
     box-shadow: 0 0.1rem 0.2rem #958f8f;
 }
-.home-btn:hover{
+.home-btn:hover, .home-btn:hover > svg > g > path{
     background: #fc4c35;
     color: #e9d4d4;
+    fill: #e9d4d4;
 }
 .home-img img{
     width: 100%;
 }
+
 @media (max-width:785px) {
     .navigation{
         padding: 18px 20px;

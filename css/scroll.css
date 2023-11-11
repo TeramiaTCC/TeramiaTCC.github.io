@@ -1,0 +1,37 @@
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(80, 44, 36, 0.4);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #502C24;    /* color of the scroll thumb */       /* roundness of the scroll thumb */
+    border: 3px solid #502C24;  /* creates padding around scroll thumb */
+  }
+
+body {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #502C24;   /* scroll thumb and track */
+  }
+
+  /* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #502C24;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #502C24;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #502C24;
+    border: 3px solid #502C24;
+  }

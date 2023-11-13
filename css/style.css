@@ -68,6 +68,7 @@ body{
     font-weight: 700;
     transition: all 0.5s;
     box-shadow: 0 0.1rem 0.2rem #958f8f;
+    cursor: pointer;
 }
 .home-btn:hover, .home-btn:hover > svg > g > path{
     background: #fc4c35;
